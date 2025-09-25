@@ -1,0 +1,207 @@
+/* Font Styles */
+.meow-script-regular {
+  font-family: "Meow Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.delius-regular {
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* General HTML Styles */
+
+body {
+  margin: 0;
+  background-color: #fff0db;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+hr {
+  margin: 40px 0;
+  background-color: black;
+  border: none;
+  height: 1px;
+}
+
+/* Nav Bar Styles */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #c9ad7f;
+  padding: 10px;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#nav-profile-pic {
+  display: flex;
+  align-items: center;
+}
+
+#nav-profile-pic img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin: 0px;
+}
+
+#nav-profile-pic p {
+  padding-left: 12px;
+}
+
+/* Index Styles */
+
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+#hero h1 {
+  margin: 16px;
+}
+
+#hero h1 span {
+  font-size: 32px;
+}
+
+#hero p {
+  width: 80%;
+  text-align: center;
+}
+
+#hero img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+#about-me h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+#about-me div {
+  width: 60%;
+  margin: auto;
+  text-align: left;
+}
+
+/* General Main Styles */
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-content {
+  width: 80%;
+}
+
+#main-heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+/* Skill Styles */
+
+.skills h1 {
+  font-weight: bold;
+}
+
+.skills ul {
+  list-style-type: disc;
+}
+
+.skills ul li {
+  margin: 10px 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.float-right {
+  float: right;
+  margin-bottom: 40px;
+}
+
+/* Gallery Styles */
+
+.gallery-img {
+  float: left;
+  width: 100%;
+  max-width: 300px;
+  max-height: 400px;
+  margin: 10px;
+  object-fit: cover;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+/* Hobby Styles */
+
+#hobby-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  padding: 20px;
+}
+
+#hobby-list li {
+  margin-bottom: 10px;
+}
+
+/* Contact Styles */
+
+#contact-list {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  padding: 20px;
+}
+
+#contact-list li {
+  margin: 10px 0;
+}
+
+#contact-list li a {
+  display: inline;
+  vertical-align: middle;
+}
+
+#contact-list li img {
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
